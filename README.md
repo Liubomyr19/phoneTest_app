@@ -1,7 +1,7 @@
 # React TypeScript Starter Pack
 
 ## Preview 
-You can view a preview of the project by the link [here](https://liubomyr19.github.io/phone_catalog/)
+You can view a preview of the project by the link [here](https://liubomyr19.github.io/phoneTest_app/)
 
 
 To use this template click `Use this template`
