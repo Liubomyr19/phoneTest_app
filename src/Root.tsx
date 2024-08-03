@@ -8,7 +8,7 @@ import { GlobalProvider } from './Context/GlobalContext';
 import { PageNotFound } from './pages/PageNotFound';
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
-import HomePage from './pages/HomePage'; // Додайте цей імпорт
+import HomePage from './pages/HomePage';
 import { Provider } from 'react-redux';
 import './firebase';
 import { store } from './store';
