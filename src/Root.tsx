@@ -21,17 +21,14 @@ export const Root = () => {
           <Routes>
             <Route path="/" element={<App />}>
               <Route path="phones" element={<PhonePage />} />
+              <Route path="phones/:prodId" element={<ProductDetailsPage />} />
               <Route path="favourites" element={<FavoritesPage />} />
               <Route path="cart" element={<CartPage />} />
-              <Route
-                path="product/:productId"
-                element={<ProductDetailsPage />}
-              />
               <Route path="*" element={<PageNotFound />} />
             </Route>
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/login" element={<LoginPage />} />
-            <Route path="/home" element={<HomePage />} />{' '}
+            <Route path="/home" element={<HomePage />} />
           </Routes>
         </GlobalProvider>
       </Router>
